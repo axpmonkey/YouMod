@@ -44,13 +44,13 @@ on:
 
       ryd:
         description: "Integrate Return-YouTube-Dislikes"
-        default: true
+        default: false
         required: false
         type: boolean
 
       abconfig:
         description: "Integrate YTABConfig"
-        default: true
+        default: false
         required: false
         type: boolean
 
@@ -74,25 +74,25 @@ on:
 
       youmute:
         description: "Integrate YouMute"
-        default: true
+        default: false
         required: false
         type: boolean
 
       youloop:
         description: "Integrate YouLoop"
-        default: true
+        default: false
         required: false
         type: boolean
 
       ytweaks:
         description: "Integrate YTweaks"
-        default: true
+        default: false
         required: false
         type: boolean
 
       youslider:
         description: "Integrate YouSlider"
-        default: true
+        default: false
         required: false
         type: boolean
 
@@ -110,19 +110,19 @@ on:
 
       youshare:
         description: "Integrate YouShare"
-        default: true
+        default: false
         required: false
         type: boolean
 
       gonerino:
         description: "Integrate Gonerino"
-        default: true
+        default: false
         required: false
         type: boolean
 
       getcap:
         description: "Integrate YouGetCaption"
-        default: true
+        default: false
         required: false
         type: boolean
 
@@ -134,7 +134,7 @@ on:
 
       volboost:
         description: "Integrate VolumeBoostYT (Require iOS 16+)"
-        default: true
+        default: false
         required: false
         type: boolean
 
